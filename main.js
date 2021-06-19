@@ -35,10 +35,8 @@ function draw(){
     if(document.getElementById('filterName').value == "DILATE"){
         filter(DILATE, 4);
     }
-    
-}
-function change_tint(){
     tint_color_var = document.getElementById('tintColorName').value;
+    
 }
 function take_snapshot(){
     save('Your Image')
